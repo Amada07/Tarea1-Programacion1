@@ -43,9 +43,17 @@ public class CuentaBancaria {
     public double getSaldo(){
         return saldo;
     }
+
+    public void setNumeroCuenta(int numeroCuenta) {
+        this.numeroCuenta = numeroCuenta;
+    }
+
     
     //Metodo para obtener numero de cuenta
     public int getNumeroCuenta(){
         return numeroCuenta;
+    }
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
     }
 }
